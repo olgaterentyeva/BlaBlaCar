@@ -14,7 +14,7 @@ button {
 
 .header {
     background-color: white;
-    margin: 30px 50px 0 50px;
+    margin: 30px 60px 69px 30px;
 }
 
 .header .nav {
@@ -27,6 +27,7 @@ button {
     width: 30vw;
     display: flex;
     flex-direction: row;
+    font-style: oblique;
     justify-content: space-evenly;
 }
 
@@ -34,6 +35,7 @@ button {
     float: left;
     color: #2B5914;
     font-size: 50px;
+    font-style: oblique;
     font-weight: bold;
 }
 
@@ -42,21 +44,24 @@ button {
 }
 
 .signup button:hover {
-    color: #2B5914;
+    color: #4d9227;
 }
 
 .container_1 {
     height: 325px;
-    width: 90vw;
+    width: 100%;
     background-color: #4C6F3B;
-    /*background-image: url("images/bg.jpg");*/
-    /*background-repeat: no-repeat;*/
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container_1 h1 {
-    font-size: 70px;
+.container_1 h4 {
+    font-size: 40px;
     color: white;
     font-weight: bold;
+    margin-left: 800px;
+    padding-top: 250px;
 }
 
 
