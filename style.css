@@ -92,11 +92,11 @@ input:hover {
 }
 
 .container_2 h3 {
-    font-size: 20px;
+    font-size: 27px;
 }
 
 .container_2 p {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .container_3 {
@@ -175,7 +175,7 @@ p.footer {
 }
 
 .main-chat {
-    background-color: #7FB067;
+    background-color: #2B5914;
     height: 80vh;
 }
 
