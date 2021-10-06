@@ -164,24 +164,32 @@ p.footer {
 }
 
 .imagebord {
-    width: 1000px;
-    height: 100%;
     margin-left: 300px;
     overflow: hidden;
+    padding: 0;
+}
+
+.background {
+    width: 1000px;
+    height: 100vh;
+    background-color: #ABE8A9;
 }
 
 .header-chat h1 {
-    font-size: 25px;
+    font-size: 30px;
+    color: black;
+    margin-left: 15px;
+    margin-top: 0;
+    padding-top: 15px;
 }
 
 .main-chat {
-    background-color: #2B5914;
-    height: 80vh;
+    text-align: center;
 }
 
 .form input {
     border-radius: 4px;
-    border: #4C6F3B;
+    border: gray;
     margin-top: 500px;
     margin-left: 10px;
     padding: 10px 0;
@@ -195,25 +203,15 @@ p.footer {
     width: 100px;
 }
 
-.footer-chat .btn {
-    margin-top: 20px;
-    background-color: gray;
-    width: 200px;
-    height: 40px;
-    text-align: center;
-    padding: 15px 10px 0 10px;
-    opacity: 1;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    opacity: 0.7;
-}
-
-.btn a {
-    color: black;
+.footer-chat .signup {
+    height: 30px;
+    padding: 5px;
     font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
 }
+
 
 
 
